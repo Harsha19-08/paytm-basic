@@ -40,7 +40,7 @@ export const Signin = () => {
         <InputBox placeholder="123456" label={"Password"} />
         <div className="pt-4">
           <Button label={"Sign in"} 
-          onClick={handleSignin}/>
+          onClick={handleSignin}/>//
         </div>
         <BottomWarning label={"Don't have an account?"} buttonText={"Sign up"} to={"/signup"} />
       </div>

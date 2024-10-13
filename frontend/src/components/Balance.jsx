@@ -8,4 +8,4 @@ export const Balance = ({ value }) => {
             Rs {value}
         </div>
     </div>
-}
+}//

@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 const uri = "mongodb+srv://22r21a12h1:MHARSHA%402004@cluster0.jrxbo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-// Connect to MongoDB Atlas
+// Connect to MongoDB Atlas//
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true
